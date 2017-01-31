@@ -1,0 +1,5 @@
+AddHandler cgi-script .bat .exe .pl .cgi
+Options +ExecCGI +FollowSymLinks
+
+RewriteEngine On 
+RewriteRule ^(.*)$ public/$1 [L]

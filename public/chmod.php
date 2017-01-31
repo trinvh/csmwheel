@@ -1,0 +1,1 @@
+<?php echo chmod('pluginsfff', 0777) ? 'OK' : 'Fail'; ?>
